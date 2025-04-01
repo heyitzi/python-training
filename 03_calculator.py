@@ -9,4 +9,8 @@ def calculator(a, b, symbol):
     else:
         return a / b
     
-print(calculator(5, 7, "+"))
+num1 = input("First number: ")
+num2 = input("Second number: ")
+operation = input ("Add the symbol for the operation you want to execute: ")
+
+print(calculator(int(num1), int(num2), operation))
