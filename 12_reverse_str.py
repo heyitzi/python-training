@@ -1,2 +1,3 @@
-user_word = input("Enter your word to reverse it: ")
+word = input("Write and I'll reverse it: ")
 
+print(word[::-1])
