@@ -23,7 +23,7 @@ cc = {
     3: "House of Flame and Shadow"
 }
 
-print("Sarah J. Maas sagas:")
+print("Sarah J. Maas Bibliography:")
 print("-----")
 
 print("TOG Series")
