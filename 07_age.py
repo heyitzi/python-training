@@ -1,6 +1,6 @@
 def age_controller(age):
     if age <= 18:
-        return "Oh no, you are not 18 so you cannot drive or drink. Don't worry, soon enough you will wish to return to your current age."
+        return "Oh no, you are not 18 so you cannot drive or drink. Don't worry, soon enough you will want to escape from the horrors of adulting."
     else:
         return "Yay! You can drive and drink. How's that existential dread going?"
 
