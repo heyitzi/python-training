@@ -5,3 +5,5 @@ def vowel_remover(str):
 
 my_str = input("Write whatever you want, and I'll remove the vowels for you: ")
 print(vowel_remover(my_str))
+
+# TODO usar regex - library

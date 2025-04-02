@@ -1,6 +1,6 @@
 def prime_num(num):
     if num > 1:
-        for n in range(1, num):
+        for n in range(2, num - 1):
             if num % n == 0:
                 return f"{num} is not a prime number"
             else:
@@ -10,3 +10,5 @@ def prime_num(num):
 
 user_num = input("Enter a positive integer to find out if it's prime: ")
 print(prime_num(int(user_num)))
+
+# TODO FIX 

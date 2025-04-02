@@ -15,7 +15,7 @@ while True:
     print("5. Leave program")
     print("-----")
     print("-----")
-    option = int(input("Write the number linked to the actions listed above: "))
+    option = int(input("Enter an option (1/2/3/4/5): "))
 
     if option == 1:
         new_item = input("Write your new task: ")
@@ -55,3 +55,5 @@ while True:
         break
     else:
         print("Sorry, enter a valid option")
+
+# TODO fix: si no hay nada, no puedes eliminar. si le doy a enter no deberia salirse. intenta romperlo

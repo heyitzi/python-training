@@ -6,3 +6,5 @@ def palindrome(str):
 
 user_str = input("Do you want to know if a word is a palindrome? Write it here: ")
 print(palindrome(user_str))
+
+# TODO ignore spaces and symbols and capitalizations (convert to lower)

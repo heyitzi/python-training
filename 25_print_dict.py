@@ -39,3 +39,5 @@ print("-----")
 print("Crescent City Series")
 for i in cc:
     print(i, cc[i])
+
+# TODO methods() .keys(), values and items - repite ejercicio usandolos
