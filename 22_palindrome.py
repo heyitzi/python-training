@@ -1,5 +1,6 @@
 def palindrome(str):
-    if str == str[::-1]:
+    clean_str = ''.join(e for e in str if e.isalnum()).lower()
+    if clean_str == clean_str[::-1]:
         return f"What kind of sorcery is this?! The word {str} is a palindrome"
     else:
         return f"{str} is such a boring word, it's not a palindrome..."
