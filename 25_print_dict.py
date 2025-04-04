@@ -23,21 +23,36 @@ cc = {
     3: "House of Flame and Shadow"
 }
 
+# print("Sarah J. Maas Bibliography:")
+# print("-----")
+
+# print("TOG Series")
+# for i in tog:
+#     print(i, tog[i])
+# print("-----")
+
+# print("ACOTAR Series")
+# for i in acotar:
+#     print(i, acotar[i])
+# print("-----")
+
+# print("Crescent City Series")
+# for i in cc:
+#     print(i, cc[i])
+
 print("Sarah J. Maas Bibliography:")
 print("-----")
 
 print("TOG Series")
-for i in tog:
-    print(i, tog[i])
+print(tog.items())
 print("-----")
 
 print("ACOTAR Series")
-for i in acotar:
-    print(i, acotar[i])
+print(acotar.items())
 print("-----")
 
 print("Crescent City Series")
-for i in cc:
-    print(i, cc[i])
+print(cc.items())
+print("-----")
 
 # TODO methods() .keys(), values and items - repite ejercicio usandolos
